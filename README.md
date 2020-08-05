@@ -1,8 +1,8 @@
 # testjsonpatch
 
-generated using Luminus version "3.57"
+Generated using Luminus version "3.57"
 
-FIXME
+lein new luminus +swagger +kee-frame +shadow-cljs +kibit
 
 ## Prerequisites
 
@@ -12,9 +12,14 @@ You will need [Leiningen][1] 2.0 or above installed.
 
 ## Running
 
+Currently this application depends on the new version of clj-json-patch of daviddpark, which I made also available for ClojureScript.
+Because this library is not yet merged with the original version it is now included in this library in resources/lib/clj-json-patch-0.1.8.jar.
+Once my pull request is merged I will change this test application so it will retrieve this library via project.clj - dependencies
+
+
 To start a web server for the application, run:
 
-    lein run 
+    lein run
 
 ## License
 
